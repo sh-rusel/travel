@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@400;500&display=swap');
+html {
+   scroll-behavior: smooth;
+}
 body {
    display: flex;
    justify-content: center;
@@ -62,6 +65,10 @@ ul {
 a:active,a:hover,a {
    text-decoration: none;
    color: white;
+} 
+a:hover {
+   text-decoration:underline;
+   transition: 1s; 
 } 
 .header__button {
    border-radius: 10px;
@@ -312,7 +319,7 @@ background: rgba(242, 120, 92);
    flex-direction: column;
 }
 .travel-stories__title {
-   padding-top: 40px;
+   padding-top: 90px;
    font-family: 'Red Hat Text';
    font-style: normal;
    font-weight: 500;
@@ -320,21 +327,23 @@ background: rgba(242, 120, 92);
    line-height: 53px;
    color: #F2785C;
    text-align: center;
+   line-height: 0;
 }
 .travel-stories__content {
    display: flex;
    padding: 0 120px;
    margin-top: 30px;
 }
-.travel-stories__content:first-child{
+.travel-stories__content:nth-child(2) {
    margin-top: 80px;
 }
+
 .content__info {
    padding-left: 40px;
 }
 .info__title {
-   margin-bottom: 24px;
-   font-family: 'Aleo';
+margin-bottom: 24px;
+font-family: 'Aleo';
 font-style: normal;
 font-weight: 400;
 font-size: 35px;
