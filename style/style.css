@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@400;500&display=swap');
+body {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   max-width: 1440px;
+   box-sizing: border-box;
+   background: no-repeat top url(/img/title.jpg),
+   no-repeat bottom url(/img/bg.jpg);
+   color:white;
+   text-decoration: none;
+   margin: 0 auto;
+}
+.header {
+   background: rgba(242, 120, 92, 0.7);
+   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+.header__section {
+   display: flex;
+   justify-content: flex-start;
+   margin-top:25px;
+   padding-left: 120px;
+   line-height: 0;
+}
+.header__logo {
+   display: flex;
+}
+.header__img {
+   width: 30px;
+   height: 30px;
+   padding-right: 6px;
+}
+.header__name {
+   font-family: 'Magra';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 39px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+}
+.header__nav {
+   margin-left:167px;
+   font-family: 'Red Hat Text', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   text-transform: capitalize;
+   margin-top: 10px;
+}
+.header__menu>li:not(:first-child) {
+padding-left: 42px;
+}
+ul {
+   padding: 0;
+   margin: 0;
+   display: flex;
+   list-style-type: none;
+   justify-content: flex-start;
+}
+a:active,a:hover,a {
+   text-decoration: none;
+   color: white;
+} 
+.header__button {
+   border-radius: 10px;
+   border: none;
+   width:103px;
+   height: 41px;
+   color:white;
+   background-color:rgba(13, 96, 111, 1);
+   margin-left: 196px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   margin-bottom: 24px;
+}
+.preview {
+   padding: 32px 0 0 120px;
+   max-width: 892px;
+}
+h1 {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 96px;
+}
+.preview__text {
+   margin-top: 32px;
+   font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+}
+.preview__search {
+   display: flex;
+   background-color:rgba(255, 255, 255, 0.7);
+   width: 892px;
+   height: 95px;
+   margin-top: 46px;
+   border-radius: 16px;
+}
+.preview__input {
+   background-color: rgba(255, 255, 255, 0);
+   border: none;
+   font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28.8px;
+   color: #F2785C;
+}
+::-webkit-input-placeholder {
+      font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28.8px;
+   color: rgba(242, 120, 92, 1);
+}
+:-moz-placeholder {
+      font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28.8px;
+   color: rgba(242, 120, 92, 1);
+}
+
+::-moz-placeholder {
+      font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28.8px;
+   color: rgba(242, 120, 92, 1);
+}
+
+:-ms-input-placeholder {
+      font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28.8px;
+   font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+   color: rgba(242, 120, 92, 1);
+}
+.preview__search {
+      font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28.8px;
+   border-radius:16px;
+   display: flex;
+   justify-content: space-between;
+}
+.preview__input {
+   text-align: center;
+   /* margin-top:32px; */
+   font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28.8px;
+   color: #F2785C;
+   padding-left: 41px;
+}
+.preview__button {
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   color: white;
+   width: 228px;
+   height: 59px;
+   background: #0D606F;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   border:none;
+   margin: 18px 18px 18px 0;
+}
+.steps {
+   margin-top: 334px;
+   display: flex;
+   flex-direction: column;
+}
+.steps__title {
+      margin: 0 auto;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 53px;
+   color: #F2785C;
+}
+.steps__trip {
+   margin: 0 auto;
+   padding-top:40px;
+   display: flex;
+   color:rgba(13, 96, 111, 1);
+}
+.trip__icon {
+   width: 100px;
+   height: 100px;
+   background-color: #F2785C;
+   border-radius: 16px;
+   display: flex;
+   justify-content: center;
+}
+.steps__trip-section {
+   display: flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content: center;
+
+}
+.steps__trip-text {
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   color: #0D606F;
+   margin-top: 30px;
+}
+.section__second {
+   margin-left: 231px;
+}
+.section__third {
+   margin-left: 160px;
+}
+.popular-destinations {
+   margin-top:97px;
+   display: flex;
+   flex-direction: column;
+   justify-content:baseline;
+}
+.popular-destinations__title {
+   margin: 0 auto;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 53px;
+   color: #F2785C;
+}
+.popular-destinations__slider {
+   margin-top: 46px;
+   display: flex;
+   justify-content: center;
+   overflow: hidden;
+}
+.popular-destinations__img:nth-child(2) {
+   margin: 0 60px;
+}
+.popular-destinations__active{
+   margin-top:24px;
+   display: flex;
+   justify-content: center;
+}
+.popular-destinations__elipse {
+width: 20px;
+height: 20px;
+background: rgba(242, 120, 92, 0.5);
+border-radius:50%
+}
+.popular-destinations__elipse:nth-child(2) {
+margin: 0 10px;
+background: rgba(242, 120, 92);
+}
+
+.popular-destinations__find-more {
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+}
+.popular-destinations__button {
+   display: flex;
+   width: 228px;
+   height: 59px;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   border:none;
+   background-color:rgba(13, 96, 111, 1);
+   color: white;
+   text-transform: capitalize;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   align-items:center;
+   justify-content: center;
+}
+.find-more__img {
+   margin-right: 10px;
+}
+.travel-stories {
+   display: flex;
+   flex-direction: column;
+}
+.travel-stories__title {
+   padding-top: 40px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 53px;
+   color: #F2785C;
+   text-align: center;
+}
+.travel-stories__content {
+   display: flex;
+   padding: 0 120px;
+   margin-top: 30px;
+}
+.travel-stories__content:first-child{
+   margin-top: 80px;
+}
+.content__info {
+   padding-left: 40px;
+}
+.info__title {
+   margin-bottom: 24px;
+   font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+color: #0D606F;
+}
+.info__text {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+}
+.content__img {
+   filter: drop-shadow(0px 4px 4px #0D606F);
+border-radius: 16px;
+}
+.travel-stories__see-more {
+   padding-top: 39px;
+   margin: 0 auto;
+}
+.travel-stories__button {
+   width: 228px;
+   height: 59px;
+   background: #0D606F;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   display: flex;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   color: #FFFFFF;
+   text-transform: capitalize;
+   align-items:center;
+   line-height: 0%;
+}
+.see-more__img {
+   width: 40px;
+   height: 40px;
+   padding: 0 10px 0 31px;
+}
+.footer {
+   margin-top: 40px;
+   height:  62px;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+}
+.footer__link {
+   display: flex;
+   justify-content: flex-start;
+}
+.footer__github, .footer__rsschool {
+   margin-left: 25px;
+   height:50px;
+}
+.footer__contacts {
+   margin-right: 120px;
+}
