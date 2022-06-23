@@ -379,6 +379,8 @@ text-decoration-line: underline;
 color: #0D606F;
 }
 .travel-stories__button {
+   margin: -2px 26px;
+   box-sizing:border-box;
    width: 228px;
    height: 59px;
    background: #0D606F;
@@ -393,30 +395,58 @@ color: #0D606F;
    color: #FFFFFF;
    text-transform: capitalize;
    display: flex;
-   justify-content: center;
-   align-items:center;
+   justify-content: flex-start;
+   align-items: center;
    border:none;
 }
 .see-more__img {
    width: 40px;
    height: 40px;
-   padding-right:9px;
+   padding-left: 28px;
+   padding-right:8px;
 }
 .footer {
    margin-top: 41px;
    height:  61px;
    display: flex;
-   justify-content: space-between;
-   align-items:center;
+   justify-content: flex-end;
+   align-items: flex-start;
 }
 .footer__link {
    display: flex;
    justify-content: flex-start;
+   width: 300px;
 }
 .footer__github, .footer__rsschool {
    margin-left: 25px;
-   height:50px;
+   height: 40px;
 }
-.footer__contacts {
-   margin-right: 120px;
+.footer__text {
+   margin-top: 22px;
+   width: 260px;
+   height: 21px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   margin-right: 330px;
+}
+.footer__contacts{
+   margin-top: 14px;
+   margin-right: 119.84px;
+}
+.twitter__img {
+   width: 33.65px;
+   height: 33.65px;
+}
+.you-tube__img {
+   width: 33.65px;
+   height: 33.65px;
+   margin-right: 20px;
+}
+.inst__img {
+   width: 30.85px;
+   height: 30.85px;
+   margin-right: 20px;
 }
